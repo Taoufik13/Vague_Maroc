@@ -1,0 +1,319 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-image: url(/image/couverture2.jpg);
+} 
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .logo {
+      width: 20%;
+      
+    }    
+    span {
+        
+        cursor: pointer;
+        margin-left: 40px;
+        margin-bottom: -0.7%;
+        color: #000000;
+         }
+
+    .menu-icon{
+        width: 10%;
+        cursor: pointer;
+        margin-left: 40px;
+        margin-bottom: -0.7%;
+        color: #f4f4f4;
+         }    
+
+      nav {
+        flex: 1;
+        text-align: right;
+      }   
+      
+      nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 60px;
+      }   
+      nav ul li a{
+        text-decoration: none;
+        color: #070707;
+        font-size: 19px;
+        text-shadow: #070707;
+
+      }   
+      .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+        left: 20px;
+      }   
+      .col {
+        flex-basis: 50%;
+      }  
+
+      h1 {
+        color: #ffffff;
+        font-size: 50px;
+        
+        text-decoration-color: #2f2f2f;
+
+      }   
+
+      .spec1{ 
+        color: #ffffff;
+        font-size: 17px;
+        line-height: 17px;
+        list-style: none;
+        margin-top: 9px;
+        font-family: sans-serif;
+      } 
+
+      p { 
+        color: #f4f4f4;
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 30px;
+        font-family: sans-serif;
+        text-shadow: #000;
+        
+      }  
+      
+
+      button{ 
+        width: 180px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top: 30px;
+      }    
+      .card { 
+        width: 200px;
+        height: 260px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 20px 24px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 37px 50px;
+        background-position: center;
+        background-size: cover;
+        text-shadow: #000;
+        transition: transform 0.5s
+        
+      }  
+      .card1 { 
+        background-image: url(/image/Taghazout/Taghazout\ spot.jpg);
+      } 
+     
+      .card2 { 
+      background-image: url(/image/RasLafaa/spots\ 3\ vague.jpeg);
+      
+      margin-top: 4px;
+      } 
+     
+       .card3 { 
+       background-image: url(/image/Essaouira/Surfcamp-Tamraght.jpeg)
+     } 
+         
+       .card4 { 
+
+        background-image: url(/image/SidiIfni/falese.jpeg);
+      } 
+ 
+      .card:hover { 
+
+      transform: translatey(-10px);
+    } 
+
+    h5{ 
+       margin-top: -5px;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 5px #999;
+      } 
+      
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+      *{margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        text-decoration: none;
+      }
+
+
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #2f2f2f;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: -1.5em;
+    font-size: 20px;
+    font-weight: 400;
+    width: 20px;
+    height: 50px;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #999;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #2f2f2f;
+    line-height: 1;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+    margin-top: 40px;
+    margin-left: -10px;
+
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 1;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .socials a i {
+    font-size: 1.1rem;
+   
+  }
+
+  .socials a:hover i {
+    color: aqua;
+  }
+
+ 
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+      
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
